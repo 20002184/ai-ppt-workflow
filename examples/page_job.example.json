@@ -1,0 +1,15 @@
+{
+  "page_id": "page_001",
+  "claim": "One sentence describing what this page proves.",
+  "evidence": ["source figure or dataset identifier"],
+  "layout": "title plus evidence diagram",
+  "editable_text_required": true,
+  "asset_sources": [],
+  "speaker_notes_required": true,
+  "qa": {
+    "no_overflow": true,
+    "source_color_checked": true,
+    "source_font_size_checked": true,
+    "visual_gate_required": true
+  }
+}

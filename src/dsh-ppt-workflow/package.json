@@ -1,0 +1,25 @@
+{
+  "name": "@local/dsh-ppt-workflow",
+  "version": "0.1.0",
+  "private": true,
+  "description": "DeepSeek Harness plugin for an evidence-driven, editable PowerPoint workflow.",
+  "icon": "./icon.svg",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "scripts/ppt_pipeline.py",
+    "docs/*.md",
+    "SKILL.md",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}

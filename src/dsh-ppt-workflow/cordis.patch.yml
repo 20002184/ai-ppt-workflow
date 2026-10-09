@@ -1,0 +1,3 @@
+- insert:
+    - id: dsh-ppt-workflow
+      name: '@local/dsh-ppt-workflow'
