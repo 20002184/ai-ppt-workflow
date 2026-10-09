@@ -1,0 +1,44 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.token
+config.yaml
+*.credentials.json
+
+# Generated PPT/media and experiment runs
+runs/
+output/
+artifacts/
+generated/
+editable_runs/
+**/*.pptx
+**/*.pptm
+**/*.docx
+**/*.pdf
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.webp
+**/*.gif
+**/*.mp4
+**/*.mov
+**/*.zip
+
+# Tool state and caches
+.cache/
+.editppt/
+*.log
+*.jsonl
+*.tmp
